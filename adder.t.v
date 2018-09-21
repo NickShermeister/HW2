@@ -12,8 +12,14 @@ module testFullAdder();
 
 
     initial begin
+
+    $dumpfile("adderr.vcd");
+    $dumpvars();
+    $display();
+
+
         // Your test code here
-        $display("Structural Adder:");
+        $display("Structural Adder Test Bench:");
         $display("carryin | a b | sum | carryout | Expected sum | Expected carryout");
         a=0;b=0;carryin=0; #1000
         $display("%b       | %b %b | %b   | %b        | 0            | 0", carryin, a, b, sum, carryout);
@@ -32,7 +38,7 @@ module testFullAdder();
         a=1;b=1;carryin=1; #1000
         $display("%b       | %b %b | %b   | %b        | 1            | 1", carryin, a, b, sum, carryout);
 
-        $display("Behavioral Adder");
+        $display("\nBehavioral Adder Test Bench:");
         $display("carryin | a b | sum | carryout | Expected sum | Expected carryout");
         a=0;b=0;carryin=0; #1000
         $display("%b       | %b %b | %b   | %b        | 0            | 0", carryin, a, b, sum2, carryout2);
@@ -51,7 +57,7 @@ module testFullAdder();
         a=1;b=1;carryin=1; #1000
         $display("%b       | %b %b | %b   | %b        | 1            | 1", carryin, a, b, sum2, carryout2);
 
-
+        $finish();
 
 
     end

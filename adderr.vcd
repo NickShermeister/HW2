@@ -1,0 +1,176 @@
+$date
+	Thu Sep 20 22:04:49 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testFullAdder $end
+$var wire 1 ! sum2 $end
+$var wire 1 " sum $end
+$var wire 1 # carryout2 $end
+$var wire 1 $ carryout $end
+$var reg 1 % a $end
+$var reg 1 & b $end
+$var reg 1 ' carryin $end
+$scope module adder $end
+$var wire 1 % a $end
+$var wire 1 ( andab $end
+$var wire 1 ) andnorc $end
+$var wire 1 & b $end
+$var wire 1 ' carryin $end
+$var wire 1 $ carryout $end
+$var wire 1 * norab $end
+$var wire 1 " sum $end
+$upscope $end
+$scope module adder2 $end
+$var wire 1 % a $end
+$var wire 1 & b $end
+$var wire 1 ' carryin $end
+$var wire 1 ! sum $end
+$var wire 1 # carryout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x*
+x)
+x(
+0'
+0&
+0%
+x$
+0#
+x"
+0!
+$end
+#50000
+0)
+0*
+0(
+#100000
+0"
+0$
+#1000000
+1!
+1%
+#1050000
+1*
+#1100000
+1"
+#2000000
+1&
+0%
+#3000000
+0!
+1#
+1%
+#3050000
+1(
+0*
+#3100000
+1$
+0"
+#4000000
+1!
+0#
+1'
+0&
+0%
+#4050000
+1"
+0(
+#4100000
+0$
+#5000000
+0!
+1#
+1%
+#5050000
+1*
+#5100000
+1)
+0"
+#5150000
+1$
+#6000000
+1&
+0%
+#7000000
+1!
+1%
+#7050000
+1(
+0*
+#7100000
+0)
+1"
+#8000000
+0#
+0!
+0'
+0&
+0%
+#8050000
+0"
+0(
+#8100000
+0$
+#9000000
+1!
+1%
+#9050000
+1*
+#9100000
+1"
+#10000000
+1&
+0%
+#11000000
+0!
+1#
+1%
+#11050000
+1(
+0*
+#11100000
+1$
+0"
+#12000000
+1!
+0#
+1'
+0&
+0%
+#12050000
+1"
+0(
+#12100000
+0$
+#13000000
+0!
+1#
+1%
+#13050000
+1*
+#13100000
+1)
+0"
+#13150000
+1$
+#14000000
+1&
+0%
+#15000000
+1!
+1%
+#15050000
+1(
+0*
+#15100000
+0)
+1"
+#16000000

@@ -24,4 +24,27 @@ module structuralDecoder
     input enable
 );
     // Your decoder code here
+    wire nA;
+    wire nB;
+    wire norAB;
+    wire andAnB;
+    wire andnAB;
+    wire andAB;
+
+    `NOT nota(nA, address0);
+    `NOT notb(nB, address1);
+
+    `NOR abnor(norAB, address0, address1);
+    `AND and0(out0, enable, norAB);
+
+    `AND AnBand(andAnB, address0, nB);
+    `AND and1(out1, enable, andAnB);
+
+    `AND nABand(andnAB, nA, address1);
+    `AND and2(out2, enable, andnAB);
+
+    `AND ABand(andAB, address0, address1);
+    `AND and3(out3, enable, andAB);
+
+
 endmodule

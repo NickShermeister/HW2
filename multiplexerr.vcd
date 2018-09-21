@@ -1,0 +1,248 @@
+$date
+	Thu Sep 20 22:04:55 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testMultiplexer $end
+$var wire 1 ! out2 $end
+$var wire 1 " out $end
+$var reg 1 # in0 $end
+$var reg 1 $ in1 $end
+$var reg 1 % in2 $end
+$var reg 1 & in3 $end
+$var reg 1 ' select0 $end
+$var reg 1 ( select1 $end
+$scope module multiplexer $end
+$var wire 1 ' address0 $end
+$var wire 1 ( address1 $end
+$var wire 1 # in0 $end
+$var wire 1 $ in1 $end
+$var wire 1 % in2 $end
+$var wire 1 & in3 $end
+$var wire 1 ! out $end
+$var wire 4 ) inputs [3:0] $end
+$var wire 2 * address [1:0] $end
+$upscope $end
+$scope module multiplexer2 $end
+$var wire 1 ' address0 $end
+$var wire 1 ( address1 $end
+$var wire 1 + ifin0 $end
+$var wire 1 , ifin1 $end
+$var wire 1 - ifin2 $end
+$var wire 1 . ifin3 $end
+$var wire 1 # in0 $end
+$var wire 1 / in0val $end
+$var wire 1 $ in1 $end
+$var wire 1 0 in1val $end
+$var wire 1 % in2 $end
+$var wire 1 1 in2val $end
+$var wire 1 & in3 $end
+$var wire 1 2 in3val $end
+$var wire 1 3 naddr0 $end
+$var wire 1 4 naddr1 $end
+$var wire 1 " out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+b0 *
+b0 )
+0(
+0'
+0&
+0%
+0$
+0#
+x"
+0!
+$end
+#50000
+14
+13
+02
+01
+00
+0/
+0.
+0-
+0,
+#100000
+1+
+0"
+#1000000
+1!
+b1 )
+1#
+#1050000
+1/
+#1100000
+1"
+#2000000
+b0 )
+0#
+0!
+b1 *
+1'
+#2050000
+0/
+03
+1,
+#2100000
+0"
+0+
+#3000000
+1!
+b10 )
+1$
+#3050000
+10
+#3100000
+1"
+#4000000
+b0 )
+0$
+1(
+0!
+b10 *
+0'
+#4050000
+00
+04
+13
+0,
+#4100000
+0"
+1-
+#5000000
+1!
+b100 )
+1%
+#5050000
+11
+#5100000
+1"
+#6000000
+b0 )
+0%
+0!
+b11 *
+1'
+#6050000
+01
+03
+1.
+#6100000
+0"
+0-
+#7000000
+1!
+b1000 )
+1&
+#7050000
+12
+#7100000
+1"
+#8000000
+b0 )
+0&
+0(
+0!
+b0 *
+0'
+#8050000
+02
+14
+13
+0.
+#8100000
+0"
+1+
+#9000000
+1!
+b1 )
+1#
+#9050000
+1/
+#9100000
+1"
+#10000000
+b0 )
+0#
+0!
+b1 *
+1'
+#10050000
+0/
+03
+1,
+#10100000
+0"
+0+
+#11000000
+1!
+b10 )
+1$
+#11050000
+10
+#11100000
+1"
+#12000000
+b0 )
+0$
+1(
+0!
+b10 *
+0'
+#12050000
+00
+04
+13
+0,
+#12100000
+0"
+1-
+#13000000
+1!
+b100 )
+1%
+#13050000
+11
+#13100000
+1"
+#14000000
+b0 )
+0%
+0!
+b11 *
+1'
+#14050000
+01
+03
+1.
+#14100000
+0"
+0-
+#15000000
+1!
+b1000 )
+1&
+#15050000
+12
+#15100000
+1"
+#16000000

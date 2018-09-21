@@ -14,6 +14,11 @@ module testMultiplexer ();
 
   initial begin
 
+  $dumpfile("multiplexerr.vcd");
+  $dumpvars();
+  $display();
+
+
     $display("Structural Multiplexer Test Bench:");
     $display("select0, select1 | O0 O1 O2 O3 | Output | Expected Output");
     select0=0;select1=0;in0 =0;in1=0;in2=0;in3=0; #1000
@@ -33,7 +38,7 @@ module testMultiplexer ();
     select0=1;select1=1;in0 =0;in1=0;in2=0;in3=1; #1000
     $display("%b        %b       | %b  %b  %b  %b  | %b      | in3", select0, select1, in0, in1, in2, in3, out);
 
-    $display("Behavioral Multiplexer Test Bench:");
+    $display("\nBehavioral Multiplexer Test Bench:");
     $display("select0, select1 | O0 O1 O2 O3 | Output | Expected Output");
     select0=0;select1=0;in0 =0;in1=0;in2=0;in3=0; #1000
     $display("%b        %b       | %b  %b  %b  %b  | %b      | in0", select0, select1, in0, in1, in2, in3, out2);
@@ -52,6 +57,7 @@ module testMultiplexer ();
     select0=1;select1=1;in0 =0;in1=0;in2=0;in3=1; #1000
     $display("%b        %b       | %b  %b  %b  %b  | %b      | in3", select0, select1, in0, in1, in2, in3, out2);
 
+    $finish();
 
   end
   endmodule
